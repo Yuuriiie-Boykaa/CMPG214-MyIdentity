@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 300" width="600" height="300">
+
+  <!-- White background -->
+  <rect width="600" height="300" fill="#ffffff" rx="12"/>
+
+  <!-- ─── INFINITY SYMBOL ─── -->
+  <!-- Shadow layer -->
+  <circle cx="222" cy="117" r="68" fill="none" stroke="#999" stroke-width="10"/>
+  <circle cx="378" cy="117" r="68" fill="none" stroke="#999" stroke-width="10"/>
+
+  <!-- Main black circles -->
+  <circle cx="219" cy="113" r="68" fill="none" stroke="#111" stroke-width="8"/>
+  <circle cx="375" cy="113" r="68" fill="none" stroke="#111" stroke-width="8"/>
+
+  <!-- White overlap mask for interlock -->
+  <path d="M 294 93 C 308 77, 322 77, 303 93 C 311 109, 311 131, 303 146 C 322 163, 308 163, 294 146 C 283 131, 283 109, 294 93 Z" fill="#ffffff"/>
+
+  <!-- Redraw crossing arcs -->
+  <path d="M 294 93 C 283 109, 283 129, 294 146" fill="none" stroke="#111" stroke-width="8" stroke-linecap="round"/>
+  <path d="M 303 93 C 314 109, 314 129, 303 146" fill="none" stroke="#111" stroke-width="8" stroke-linecap="round"/>
+
+  <!-- Center dot -->
+  <circle cx="298" cy="113" r="6" fill="#111"/>
+
+  <!-- ─── DECORATIVE LINES ─── -->
+  <line x1="80" y1="210" x2="222" y2="210" stroke="#111" stroke-width="2"/>
+  <line x1="378" y1="210" x2="520" y2="210" stroke="#111" stroke-width="2"/>
+
+  <!-- Diamond accents -->
+  <polygon points="237,210 245,203 253,210 245,217" fill="#111"/>
+  <polygon points="347,210 355,203 363,210 355,217" fill="#111"/>
+
+  <!-- ─── NAME TEXT ─── -->
+  <!-- Shadow -->
+  <text x="303" y="242" font-family="Georgia, 'Times New Roman', serif" font-size="36"
+    font-weight="bold" letter-spacing="8" text-anchor="middle" fill="#bbb">YURI BOYKA</text>
+  <!-- Main black text -->
+  <text x="300" y="239" font-family="Georgia, 'Times New Roman', serif" font-size="36"
+    font-weight="bold" letter-spacing="8" text-anchor="middle" fill="#111">YURI BOYKA</text>
+
+  <!-- ─── TAGLINE ─── -->
+  <text x="300" y="270" font-family="Georgia, serif" font-size="10"
+    letter-spacing="5" text-anchor="middle" fill="#888">THE MOST COMPLETE FIGHTER</text>
+
+</svg>
